@@ -1,0 +1,178 @@
+body{
+    background: #bef0b9;
+}
+/* Cabecera */
+header{
+    background: #0078D4;
+    padding: 20px 0;
+}
+
+.mi-logo{
+    width: 40%;
+    height: 250px;
+    
+}
+
+img{
+    width: 280px;
+}
+
+.mi-nombre{
+    margin: 0px 0 0 10px;
+}
+
+#span-mi-logo{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    top: -10px;
+}
+
+#p-mi-logo{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+/* Caja de navegación */
+.caja-navegador{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+/* Menú de navegación */
+.navegador{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+    background: #0078D4;
+    height: 40px;
+   
+}
+
+.navegador-cabecera{
+    left: 120px;
+    margin: 10px 0 0 120px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #c7c5c7;
+    transition: .5s;
+}
+
+
+.caja-saludo{
+    position: relative;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    top: 60px;
+    margin-left: 20px
+}
+
+.saludo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*.saludo-titulo{
+    font-size: 40px;
+}*/
+
+.saludo-parrafo{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+/*main - Info página*/
+.info-pagina{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 40px 20px 40px;
+    background: #a0e69a;
+    border-radius: 20px;
+    gap: 40px;
+    height: 150px;
+}
+
+
+.redes-img{
+    width: 80px;
+}
+.info-texto{
+    font-size: 24px;
+    
+}
+.info-texto h2{
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    
+}
+
+.separador{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+
+.img-sobre-mi{
+    width: 10%;
+    margin: 80px 0 0 20px;
+    
+}
+/*Seccion Sobre Mi*/
+.contenedor-sobre-mi{
+    display: block;
+    width: 940px;
+    margin: 20px auto;
+    padding: 20px 40px 20px 40px;
+    background: #abd2f7;
+    border-radius: 20px;
+    gap: 40px;
+    height: 150px;
+}
+
+.titulo-sobre-mi{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.img-skills{
+    width: 10%;
+    margin: 80px 0 0 20px;
+}
+footer{
+    text-align: center;
+    background: #0078D4;
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 24px;
+    margin:20px;
+}
+
+/*<a target="_blank" href="https://icons8.com/icon/akG4VRhAoSii/github">GitHub</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>*/
